@@ -1,0 +1,193 @@
+.select-input-container {
+    display: inline-block;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .select-input__control {
+    border: solid 1px #979797 !important;
+    border-radius: 10px !important;
+  }
+  
+  .react-datepicker-wrapper,
+  .react-datepicker__input-container {
+    width: 100%;
+  }
+  
+  .crouton {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #01dcab;
+    z-index: 999999999;
+  }
+  
+  #input-btn {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 100%;
+    padding: 15px 20px;
+  }
+  
+  .input-verify {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  
+  #verify-padding {
+    padding: 10px 0;
+  }
+  
+  .select-input {
+    margin: 10px 0;
+  }
+  
+  .vertical-align-middle {
+    vertical-align: 'middle';
+  }
+  
+  #avatar-width {
+    width: 76px;
+  }
+  
+  .center-canvas {
+    text-align: center;
+  }
+  
+  #menu-width {
+    min-width: 210px;
+  }
+  
+  .custom-search-form div.select-input__control {
+    border: 0 !important;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    box-shadow: 0 7px 15px 10px rgba(197, 196, 196, 0.13) !important;
+  }
+  
+  .custom-search-form .therapeutic-area-input .select-input__dropdown-indicator {
+    background-image: url('/assets/images/search-solid.svg') !important;
+    background-repeat: no-repeat !important;
+    background-size: 16px 16px !important;
+    width: 38px;
+    background-position: center;
+  }
+  
+  .custom-search-form .therapeutic-area-input svg {
+    display: none;
+  }
+  
+  #covariates .select-input__control {
+    border: 0 !important;
+    outline: none;
+  }
+  .see-all {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .back {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .resp_prod_vid {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+  }
+  .resp_prod_vid > iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  /* memmbership plan */
+  .text-lightPurple {
+    color: #9052c8;
+  }
+  
+  .bg-lightPurple {
+    background: #c979de;
+  }
+  
+  .membership-plan .form-radio .form-icon {
+    left: 15px;
+    top: 20px;
+  }
+  
+  .border-wrapper {
+    border: solid 1px #979797;
+  }
+  
+  .membership-radio {
+    padding: 15px 15px 15px 40px;
+  }
+  
+  .membership-plan .form-radio {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .membership-managePlan .membership-radio {
+    border: 1px solid #979797;
+  }
+  
+  .membership-plan .form-radio:not(:last-child) {
+    border-bottom: solid 1px #979797;
+  }
+  
+  .membership-plan .form-radio input:checked + .membership-radio {
+    background: rgba(194, 106, 214, 0.1);
+  }
+  
+  .membership-managePlan .form-radio input:checked + .membership-radio {
+    border-color: #402bb2;
+  }
+  
+  .membership-plan .form-radio input:checked ~ .form-icon {
+    background: #5755d9;
+    border-color: #5755d9;
+  }
+  
+  .membership-plan .form-radio input:checked ~ .form-icon::before {
+    background: #fff;
+    border-radius: 50%;
+    content: "";
+    height: 6px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 6px;
+  }
+  
+  .membership-plan .form-radio input:focus ~ .form-icon {
+    box-shadow: 0 0 0 0.1rem rgba(87, 85, 217, 0.2);
+    border-color: #5755d9;
+  }
+  
+  .bar.managePlan-bar {
+    background: #e7e3e3;
+    border-radius: 10px;
+  }
+  
+  .bar.managePlan-bar .bar-item {
+    background: #c979de;
+    border-radius: 10px;
+  }
+  
+  .bar.managePlan-bar .bar-item.bar-full {
+    background: #fa5e5b;
+  }
+  .Upperased{
+    text-transform: uppercase;
+  }
+  
+  /* membership plan end */
+  
