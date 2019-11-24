@@ -5,9 +5,11 @@ import App from './App';
 import {Ap} from './Ap';
 import Nap from './App_old_sl';
 import Lap from './Att';
+import Hook from './Hook';
 import * as serviceWorker from './serviceWorker';
 import { withFormik } from 'formik';
 import Yup ,{ object, mixed, string, boolean} from "yup"
+import AppWithRouter from './AppWithRouter'
 
 import Chy from './Chy';
 import Grid from './Ghy';
@@ -42,8 +44,9 @@ const FormikApp = withFormik({
     handleSubmit
 })(App);
 
-ReactDOM.render(<FormikApp handleChange = {()=>{console.log("changinh");return false;}} 
-email = "" />, document.getElementById('root'));
+/* ReactDOM.render(<FormikApp handleChange = {()=>{console.log("changinh");return false;}} 
+email = "" />, document.getElementById('root')); */
+ReactDOM.render(<AppWithRouter/>,document.getElementById('root'));
 
 //ReactDOM.render(<Grid />, document.getElementById('root'));
 
